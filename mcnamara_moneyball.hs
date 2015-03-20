@@ -42,7 +42,7 @@ integralMeasure grade
   | grade == "B" 	=	3
   | grade == "C" 	=	2
   | grade == "D" 	=	1
-  | grade == "F"    =   -1
+  | grade == "F"    	=      -1
   | otherwise		=	0
 
 -- Transform letter grade to a Float Measure  
